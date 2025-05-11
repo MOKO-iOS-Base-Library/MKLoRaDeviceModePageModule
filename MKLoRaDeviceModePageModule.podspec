@@ -93,6 +93,8 @@ TODO: Add long description of the pod here.
         ssss.source_files = 'MKLoRaDeviceModePageModule/Classes/Pages/TimingModePage/Protocol/**'
       end
     end
+    
+    ss.dependency 'MKLoRaDeviceModePageModule/Views'
   end
   
   s.dependency 'MKBaseModuleLibrary'
