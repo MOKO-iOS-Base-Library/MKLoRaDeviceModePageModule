@@ -167,7 +167,7 @@ THE SOFTWARE.
 
 ## SSZipArchive
 
-Copyright (c) 2013-2025, ZipArchive, https://github.com/ZipArchive
+Copyright (c) 2013-2021, ZipArchive, https://github.com/ZipArchive
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

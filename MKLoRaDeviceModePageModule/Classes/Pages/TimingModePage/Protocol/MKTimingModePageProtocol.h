@@ -1,16 +1,5 @@
 
-@interface MKTimingModeTimePointModel : NSObject
-
-/// 0~23
-@property (nonatomic, assign)NSInteger hour;
-
-/// 0-59
-@property (nonatomic, assign)NSInteger minuteGear;
-
-@end
-
-@implementation MKTimingModeTimePointModel
-@end
+#import "MKTimingModeTimePointModel.h"
 
 @protocol MKTimingModePageProtocol <NSObject>
 

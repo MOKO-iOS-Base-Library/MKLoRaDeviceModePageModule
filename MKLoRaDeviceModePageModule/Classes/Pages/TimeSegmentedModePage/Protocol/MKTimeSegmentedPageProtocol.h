@@ -1,25 +1,5 @@
 
-@interface MKTimeSegmentedTimePeriodModel : NSObject
-
-/// 0~23
-@property (nonatomic, assign)NSInteger startHour;
-
-/// 0-59
-@property (nonatomic, assign)NSInteger startMinuteGear;
-
-/// 0~23
-@property (nonatomic, assign)NSInteger endHour;
-
-/// 0-59
-@property (nonatomic, assign)NSInteger endMinuteGear;
-
-/// Report Interval   30s - 86400s
-@property (nonatomic, assign)NSInteger interval;
-
-@end
-
-@implementation MKTimeSegmentedTimePeriodModel
-@end
+#import "MKTimeSegmentedTimePeriodModel.h"
 
 @protocol MKTimeSegmentedPageProtocol <NSObject>
 

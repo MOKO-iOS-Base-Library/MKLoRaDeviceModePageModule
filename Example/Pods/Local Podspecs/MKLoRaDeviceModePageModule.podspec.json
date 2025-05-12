@@ -1,9 +1,9 @@
 {
   "name": "MKLoRaDeviceModePageModule",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of MKLoRaDeviceModePageModule.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lovexiaoxia/MKLoRaDeviceModePageModule",
+  "homepage": "https://github.com/MOKO-iOS-Base-Library/MKLoRaDeviceModePageModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "lovexiaoxia": "aadyx2007@163.com"
   },
   "source": {
-    "git": "https://github.com/lovexiaoxia/MKLoRaDeviceModePageModule.git",
-    "tag": "0.0.1"
+    "git": "git@github.com:MOKO-iOS-Base-Library/MKLoRaDeviceModePageModule.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "14.0"
@@ -50,6 +50,11 @@
     },
     {
       "name": "Pages",
+      "dependencies": {
+        "MKLoRaDeviceModePageModule/Views": [
+
+        ]
+      },
       "subspecs": [
         {
           "name": "MotionModePage",
@@ -126,7 +131,16 @@
             },
             {
               "name": "Protocol",
-              "source_files": "MKLoRaDeviceModePageModule/Classes/Pages/TimeSegmentedModePage/Protocol/**"
+              "source_files": "MKLoRaDeviceModePageModule/Classes/Pages/TimeSegmentedModePage/Protocol/**",
+              "dependencies": {
+                "MKLoRaDeviceModePageModule/Pages/TimeSegmentedModePage/Model": [
+
+                ]
+              }
+            },
+            {
+              "name": "Model",
+              "source_files": "MKLoRaDeviceModePageModule/Classes/Pages/TimeSegmentedModePage/Model/**"
             }
           ]
         },
@@ -144,7 +158,16 @@
             },
             {
               "name": "Protocol",
-              "source_files": "MKLoRaDeviceModePageModule/Classes/Pages/TimingModePage/Protocol/**"
+              "source_files": "MKLoRaDeviceModePageModule/Classes/Pages/TimingModePage/Protocol/**",
+              "dependencies": {
+                "MKLoRaDeviceModePageModule/Pages/TimingModePage/Model": [
+
+                ]
+              }
+            },
+            {
+              "name": "Model",
+              "source_files": "MKLoRaDeviceModePageModule/Classes/Pages/TimingModePage/Model/**"
             }
           ]
         }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKLoRaDeviceModePageModule'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of MKLoRaDeviceModePageModule.'
 
 # This description is used to generate tags and improve search results.
@@ -82,6 +82,10 @@ TODO: Add long description of the pod here.
       end
       sss.subspec 'Protocol' do |ssss|
         ssss.source_files = 'MKLoRaDeviceModePageModule/Classes/Pages/TimeSegmentedModePage/Protocol/**'
+        ssss.dependency 'MKLoRaDeviceModePageModule/Pages/TimeSegmentedModePage/Model'
+      end
+      sss.subspec 'Model' do |ssss|
+        ssss.source_files = 'MKLoRaDeviceModePageModule/Classes/Pages/TimeSegmentedModePage/Model/**'
       end
     end
     ss.subspec 'TimingModePage' do |sss|
@@ -91,6 +95,10 @@ TODO: Add long description of the pod here.
       end
       sss.subspec 'Protocol' do |ssss|
         ssss.source_files = 'MKLoRaDeviceModePageModule/Classes/Pages/TimingModePage/Protocol/**'
+        ssss.dependency 'MKLoRaDeviceModePageModule/Pages/TimingModePage/Model'
+      end
+      sss.subspec 'Model' do |ssss|
+        ssss.source_files = 'MKLoRaDeviceModePageModule/Classes/Pages/TimingModePage/Model/**'
       end
     end
     
