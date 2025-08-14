@@ -121,7 +121,7 @@ MKTimeSegmentedCellDelegate>
 
 #pragma mark - MKTimeSegmentedAddCellDelegate
 - (void)mk_timeSegmentedAddCell_addPressed {
-    NSInteger maxPointCount = (self.protocol.maxPointList > 0 ? self.protocol.maxPointList : 10);
+    NSInteger maxPointCount = (self.protocol.maxPointList > 0 ? self.protocol.maxPointList : 3);
     if (self.section2List.count >= maxPointCount) {
         //最多10组
         [self.view showCentralToast:[NSString stringWithFormat:@"You can set up to %@ time points!",@(maxPointCount)]];
