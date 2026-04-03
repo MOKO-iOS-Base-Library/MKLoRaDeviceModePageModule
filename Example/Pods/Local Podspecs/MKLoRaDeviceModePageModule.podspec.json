@@ -1,6 +1,6 @@
 {
   "name": "MKLoRaDeviceModePageModule",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "summary": "A short description of MKLoRaDeviceModePageModule.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MOKO-iOS-Base-Library/MKLoRaDeviceModePageModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:MOKO-iOS-Base-Library/MKLoRaDeviceModePageModule.git",
-    "tag": "0.0.2"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "14.0"

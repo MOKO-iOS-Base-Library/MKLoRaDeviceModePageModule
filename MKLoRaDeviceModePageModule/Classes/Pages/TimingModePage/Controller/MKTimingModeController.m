@@ -293,8 +293,8 @@ MKReportTimePointCellDelegate>
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(0);
         make.right.mas_equalTo(0);
-        make.top.mas_equalTo(self.view.mas_safeAreaLayoutGuideTop);
-        make.bottom.mas_equalTo(self.view.mas_safeAreaLayoutGuideBottom);
+        make.top.equalTo(self.view).offset(kTopBarHeight);
+        make.bottom.mas_equalTo(self.view.make.bottom.equalTo(self.view).offset(-kSafeAreaHeight));
     }];
 }
 
