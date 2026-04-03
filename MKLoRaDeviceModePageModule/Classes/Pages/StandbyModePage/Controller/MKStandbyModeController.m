@@ -135,7 +135,7 @@ MKTextButtonCellDelegate
         make.left.mas_equalTo(0);
         make.right.mas_equalTo(0);
         make.top.equalTo(self.view).offset(kTopBarHeight);
-        make.bottom.mas_equalTo(self.view.make.bottom.equalTo(self.view).offset(-kSafeAreaHeight));
+        make.bottom.equalTo(self.view).offset(-kSafeAreaHeight);
     }];
 }
 
