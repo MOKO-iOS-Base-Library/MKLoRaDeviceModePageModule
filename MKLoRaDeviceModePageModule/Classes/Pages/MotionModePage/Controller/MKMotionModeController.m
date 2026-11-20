@@ -587,7 +587,7 @@ MKTextButtonCellDelegate>
 #pragma mark - UI
 - (void)loadSubViews {
     self.defaultTitle = @"Motion Mode";
-    [self.rightButton setImage:LOADICON(@"MKLoRaDeviceModePageModule", @"MKMotionModeController", @"mk_loraDeviceMode_slotSaveIcon.png") forState:UIControlStateNormal];
+    [self.rightButton setImage:LOADICON(@"MKLoRaDeviceModePageModule", @"MKMotionModeController", @"mk_loraDeviceMode_slotSaveIcon@2x.png") forState:UIControlStateNormal];
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(0);

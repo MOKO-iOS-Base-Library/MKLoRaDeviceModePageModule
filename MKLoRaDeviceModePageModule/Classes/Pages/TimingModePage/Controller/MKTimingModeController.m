@@ -288,7 +288,7 @@ MKReportTimePointCellDelegate>
 #pragma mark - UI
 - (void)loadSubViews {
     self.defaultTitle = @"Timing Mode";
-    [self.rightButton setImage:LOADICON(@"MKLoRaDeviceModePageModule", @"MKTimingModeController", @"mk_loraDeviceMode_slotSaveIcon.png") forState:UIControlStateNormal];
+    [self.rightButton setImage:LOADICON(@"MKLoRaDeviceModePageModule", @"MKTimingModeController", @"mk_loraDeviceMode_slotSaveIcon@2x.png") forState:UIControlStateNormal];
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(0);
